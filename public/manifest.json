@@ -1,0 +1,22 @@
+{
+  "short_name": "PaulwerLift",
+  "name": "PaulwerLift Tracker",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#070709",
+  "theme_color": "#070709",
+  "display": "standalone",
+  "orientation": "portrait"
+}
