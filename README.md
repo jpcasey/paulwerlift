@@ -77,6 +77,25 @@ To run the application locally in development mode:
 
 ---
 
+## 🚀 How to Deploy Updates to GitHub Pages
+
+Since the live website is hosted on GitHub Pages, pushing a normal commit to `main` backs up your source code but **does not** automatically update your hosted phone app. 
+
+To compile and publish your latest changes to your live site, simply run:
+
+```bash
+npm run deploy
+```
+
+This single command automatically:
+1. Compiles your TypeScript (`tsc -b`).
+2. Builds your static Vite assets into the `dist/` folder.
+3. Commits and pushes the compiled assets directly to your active `gh-pages` hosting branch on GitHub!
+
+---
+
+---
+
 ## 📱 PWA installation on iPhone (Safari Standalone Mode)
 
 1. Open **Safari** on your iPhone and navigate to your deployed hosting URL.
