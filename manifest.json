@@ -14,7 +14,8 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "/",
+  "start_url": "/paulwerlift/",
+  "scope": "/paulwerlift/",
   "background_color": "#070709",
   "theme_color": "#070709",
   "display": "standalone",
