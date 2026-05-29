@@ -1,9 +1,9 @@
 const CACHE_NAME = 'antigravity-fit-v1';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/logo.svg',
-  '/manifest.json'
+  './',
+  'index.html',
+  'logo.svg',
+  'manifest.json'
 ];
 
 self.addEventListener('install', (e) => {
@@ -54,7 +54,7 @@ self.addEventListener('fetch', (e) => {
           }
           // If offline navigation, fall back to index.html
           if (e.request.mode === 'navigate') {
-            return caches.match('/');
+            return caches.match('./');
           }
         });
       })
